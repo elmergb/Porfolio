@@ -10,6 +10,14 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- Opening Animation Overlay -->
+    <div class="opening-animation" id="openingAnimation">
+        <div class="opening-content">
+            <h1 class="opening-title">Elmer Bantoy</h1>
+            <p class="opening-subtitle">Welcome to my portfolio</p>
+        </div>
+    </div>
+
     <nav class="navbar">
         <div class="nav-brand">Elmer</div>
         <div class="social-links">
@@ -44,5 +52,18 @@
             </div>
         </div>
     </main>
+
+    <script>
+        // Opening animation script
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                const openingAnimation = document.getElementById('openingAnimation');
+                openingAnimation.style.opacity = '0';
+                setTimeout(function() {
+                    openingAnimation.style.display = 'none';
+                }, 1000);
+            }, 2000);
+        });
+    </script>
 </body>
 </html>
