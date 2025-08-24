@@ -14,6 +14,7 @@ body {
     height: 60px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     position: absolute;
@@ -27,6 +28,70 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 600;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.05);
+}
+
+.social-name {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.social-icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+/* Individual icon sizes  */
+.github-icon {
+    width: 20px ;
+    height: 20px ;
+    fill: #ffffff;
+    
+    
+}
+
+.facebook-icon {
+    width: 18px ;
+    height: 18px ;
+    fill: #1877f2;
+}
+
+.instagram-icon {
+    width: 22px ;
+    height: 22px ;
+    fill: #e4405f;
+}
+
+/* Hover effects */
+.github-link:hover .github-icon {
+    fill: #6e7681;
+}
+
+.facebook-link:hover .facebook-icon {
+    fill: #166fe5;
+}
+
+.instagram-link:hover .instagram-icon {
+    fill: #c13584;
 }
 
 .content {
