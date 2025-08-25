@@ -178,6 +178,14 @@ body {
     max-width: 800px;
 }
 
+.myPic img{
+    width: 300px;
+    height: 300px;
+    margin-top: 3vh;
+    margin-left: 32vh;
+    border-radius: 10px;
+}
+
 .MyPrinciples{
     padding: 50px;
 }
@@ -189,3 +197,4 @@ body {
     margin-left: 15%;
     margin-bottom: 0;
 }
+
