@@ -195,19 +195,30 @@ body {
     font-size: 20px;
     font-weight: lighter;
     margin-left: 15%;
-    margin-bottom: 0;
+    margin-bottom: 6px;
 }
 
 .myPic{
-    display: flex;
-    align-items: flex-start;
-    gap: 50px; /* gap between image and text */
     margin-left: 15%;
     margin-top: 3vh;
 }
 
+.about-sep{
+    width: 60%;
+    margin-left: 0;
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.6);
+}
+
+.about-content{
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    margin-top: 20px;
+}
+
 .myPic p{
-  max-width: 600px;           /* so text doesn’t stretch too wide */
+  max-width: 600px;           
   font-size: 16px;
   line-height: 1.6;
   color: white;
