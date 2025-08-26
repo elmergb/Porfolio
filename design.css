@@ -181,8 +181,8 @@ body {
 .myPic img{
     width: 300px;
     height: 300px;
-    margin-top: 3vh;
-    margin-left: 32vh;
+    margin-top: 0;
+    margin-left: 0;
     border-radius: 10px;
 }
 
@@ -198,3 +198,17 @@ body {
     margin-bottom: 0;
 }
 
+.myPic{
+    display: flex;
+    align-items: flex-start;
+    gap: 50px; /* gap between image and text */
+    margin-left: 15%;
+    margin-top: 3vh;
+}
+
+.myPic p{
+  max-width: 600px;           /* so text doesn’t stretch too wide */
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;
+}
